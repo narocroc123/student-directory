@@ -22,6 +22,8 @@ def input_students
   students
 end
 
+
+
 def print(students)
   students.each_with_index do |student, index|
     indexplusone = index + 1
